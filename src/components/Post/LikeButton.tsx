@@ -1,8 +1,7 @@
-"use client"; 
+"use client";
 
-import { likePost } from "@/actions"; 
-import { useRouter } from "next/navigation"; 
-import { useState } from "react"; 
+import { likePost } from "@/actions";
+import { useState } from "react";
 import { BsFillHeartFill, BsHeart } from "react-icons/bs"; // Importa ícones de coração para representar curtidas
 
 
@@ -17,12 +16,10 @@ const LikeButton = ({ postId, initialLikesCount, isLiked, currentUserId }: LikeB
     const [likesCount, setLikesCount] = useState(initialLikesCount); // Armazena o número atual de curtidas
     const [liked, setLiked] = useState(isLiked); // Armazena se o post está curtido pelo usuário atual
 
-    const router = useRouter(); 
-
     // Função que lida com a ação de curtir/descurtir um post
     const handleLike = async () => {
-        if (!currentUserId) { 
-            router.push("/signin"); // Redireciona o usuário para a página de login se não estiver autenticado
+        if (!currentUserId) {
+            window.location.href = "/signin"; // Redireciona o usuário para a página de login se não estiver autenticado
             return; // Encerra a execução da função caso o usuário não esteja logado
         }
 
