@@ -1,5 +1,6 @@
 # NextGram
-NextGram é uma aplicação web que simula uma rede social inspirada no Instagram, desenvolvida com Next.js, TypeScript, Tailwind CSS, e utilizando Prisma como ORM e SQLite como banco de dados. O usuário pode se autenticar com sua conta do Google, através do NextAuth.js, para acessar a plataforma e interagir com diversas funcionalidades.
+**NextGram** é uma aplicação web que simula uma rede social inspirada no Instagram, desenvolvida com [Next.js](https://nextjs.org/docs), [TypeScript](https://www.typescriptlang.org/docs/), [Tailwind CSS](https://tailwindcss.com/docs), e utilizando [Prisma](https://www.prisma.io/docs) como ORM e [SQLite](https://sqlite.org/docs.html) como banco de dados. O usuário pode se autenticar com sua conta do Google, através do [NextAuth.js](https://next-auth.js.org/getting-started/introduction), para acessar a plataforma e interagir com diversas funcionalidades.
+
 
 ## Funcionalidades 
 - **Feed de publicações:** Explore a home com postagens dos usuários, onde é possível curtir e comentar.
