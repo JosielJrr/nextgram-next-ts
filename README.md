@@ -24,11 +24,11 @@ Para rodar a aplicação localmente, siga os passos abaixo:
    AUTH_SECRET="Sua_Chave_para_Proteger_Sessões"  
  
 
-3. Instale as dependências:
+3. **Instale as dependências:**
     ```bash
     npm install
     ```
-4. Inicie o servidor de desenvolvimento:
+4. **Inicie o servidor de desenvolvimento:**
     ```bash
     npm run dev
     ```
