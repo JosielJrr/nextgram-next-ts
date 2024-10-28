@@ -15,10 +15,7 @@ Para rodar a aplicação localmente, siga os passos abaixo:
     git clone https://github.com/JosielJrr/nextgram-next-ts.git
     ```
 2. **Configuração do Ambiente com Prisma:** Siga os passos abaixo para configurar seu ambiente de desenvolvimento:
- - Crie um arquivo chamado `.env.local` na raiz do projeto.
-   ```bash
-   touch .env.local
-   ```
+- Crie um arquivo chamado `.env.local` na raiz do projeto.
 - Adicione as variáveis de ambiente abaixo. Lembre-se de substituir pelos seus próprios valores após registrar a aplicação no **Google Console**:
 
    ```plaintext
