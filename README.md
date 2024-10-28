@@ -8,23 +8,32 @@
 - **Área de publicação:** Publique novas imagens e legendas na home, escolhendo um arquivo de imagem.
 - **Aba de postagens:** Acesse uma seção com todas as suas publicações e a possibilidade de excluir posts específicos.
 
-## Instalação
+## Instalação e Configuração
 Para rodar a aplicação localmente, siga os passos abaixo:
-1. Clone o repositório:
+1. **Clone o repositório:**
     ```bash
     git clone https://github.com/JosielJrr/nextgram-next-ts.git
     ```
-2. Instale as dependências:
+2. **Configuração do Ambiente com Prisma:** Siga os passos abaixo para configurar seu ambiente de desenvolvimento:
+ - Crie um arquivo chamado `.env.local` na raiz do projeto.
+   ```bash
+   touch .env.local
+   ```
+- Adicione as variáveis de ambiente abaixo. Lembre-se de substituir pelos seus próprios valores após registrar a aplicação no **Google Console**:
+
+   ```plaintext
+   AUTH_GOOGLE_ID="Seu_ID_do_Cliente_do_Google"  
+   AUTH_GOOGLE_SECRET="Seu_Segredo_do_Cliente_do_Google"  
+   AUTH_SECRET="Sua_Chave_para_Proteger_Sessões"  
+ 
+
+3. Instale as dependências:
     ```bash
     npm install
-    # ou
-    yarn install
     ```
-3. Inicie o servidor de desenvolvimento:
+4. Inicie o servidor de desenvolvimento:
     ```bash
     npm run dev
-    # ou
-    yarn dev
     ```
 
 ## Comandos Disponíveis
