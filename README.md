@@ -21,9 +21,7 @@ Para rodar a aplicação localmente, siga os passos abaixo:
    ```plaintext
    AUTH_GOOGLE_ID="Seu_ID_do_Cliente_do_Google"  
    AUTH_GOOGLE_SECRET="Seu_Segredo_do_Cliente_do_Google"  
-   AUTH_SECRET="Sua_Chave_para_Proteger_Sessões"  
- 
-
+   AUTH_SECRET="Sua_Chave_para_Proteger_Sessões"
 3. **Instale as dependências:**
     ```bash
     npm install
