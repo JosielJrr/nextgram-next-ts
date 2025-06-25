@@ -28,6 +28,7 @@
    ```
 
 2. Configure as variáveis de ambiente:
+
    Use o comando abaixo para criar um arquivo `.env.local` com base no modelo:
 
    ```bash
@@ -36,13 +37,13 @@
 
    Em seguida, siga as instruções no próprio `.env.example` para obter as credenciais do **Google Cloud** e preencha o `.env.local`.
 
-3. Instale as dependências:
+4. Instale as dependências:
 
    ```bash
    npm install
    ```
 
-4. Execute a aplicação:
+5. Execute a aplicação:
 
    ```bash
    npm run dev
