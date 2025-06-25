@@ -11,12 +11,12 @@
 
 ## 🛠 Tecnologias Utilizadas
 
-- **[Next.js](https://nextjs.org/docs)** – Framework React para aplicações web.
-- **[TypeScript](https://www.typescriptlang.org/docs/)** – Linguagem com tipagem estática para maior segurança.
-- **[Tailwind CSS](https://tailwindcss.com/docs)** – Framework CSS para estilização responsiva.
-- **[Prisma](https://www.prisma.io/docs)** – ORM para gerenciamento do banco de dados.
-- **[SQLite](https://sqlite.org/docs.html)** – Banco de dados leve, armazenado localmente.
-- **[NextAuth.js](https://next-auth.js.org/getting-started/introduction)** – Biblioteca de autenticação com suporte a provedores externos (Google).
+- **[Next.js](https://nextjs.org/)** – Framework React para aplicações web.
+- **[TypeScript](https://www.typescriptlang.org/)** – Linguagem com tipagem estática para maior segurança.
+- **[Tailwind CSS](https://tailwindcss.com/)** – Framework CSS para estilização responsiva.
+- **[Prisma](https://www.prisma.io/)** – ORM para gerenciamento do banco de dados.
+- **[SQLite](https://sqlite.org/index.html)** – Banco de dados leve, armazenado localmente.
+- **[NextAuth.js](https://next-auth.js.org/)** – Biblioteca de autenticação com suporte a provedores externos (Google).
 
 ## ⚙️ Instalação e uso local
 
