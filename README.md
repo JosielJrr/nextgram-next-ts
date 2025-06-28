@@ -37,13 +37,13 @@
 
    Em seguida, siga as instruções no próprio `.env.example` para obter as credenciais do **Google Cloud** e preencha o `.env.local`.
 
-4. Instale as dependências:
+3. Instale as dependências:
 
    ```bash
    npm install
    ```
 
-5. Execute a aplicação:
+4. Execute a aplicação:
 
    ```bash
    npm run dev
